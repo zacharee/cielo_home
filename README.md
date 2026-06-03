@@ -9,26 +9,22 @@ A Home Assistant custom integration to control Cielo Home devices.
 
 ## Configuration
 
-If you have installed a version prior 1.8.7 you need to uninstall the integration and install it again.
-You need to restart HA after the uninstall and after the install.
+To find the field in the initial configuration setup follow this.
 
-For find the field in the initial configuration setup follow this.
-
-1. Open a new chrome to https://home.cielowigle.com/.
+1. Open a new Chrome incognito tab to https://home.cielowigle.com/.
 2. Open the console tool with F12.
 3. Click on the 'Network' tab.
-4. Check the option 'Disable cache' and 'Preserve log'
-5. Fill your login, password and complete the recaptcha.
+4. Check the options 'Disable cache' and 'Preserve log'
+5. Enter your login, password and complete the recaptcha.
 6. Click 'Sign in'.
 
 ![image](https://github.com/bodyscape/cielo_home/assets/30115568/3d1878e3-031e-4ab7-86ab-464c15b11eeb)
 
-7. Click on the new row on network who have the 'login' on it.
-8. Click on the new subtab 'Response'
-9. Copy all the Response in a text file and close Chrome (Don't sign out, close the whole Chrome not just the tab. Really important)
-10. Search within text file to find and copy/paste the values in configuration dialog (without quotes).
+7. Click on the new row in the Network tab that has the 'login' path.
+8. Click on the 'Response' subtab.
+9. Copy the entire value into a text file and close Chrome (Don't sign out, close the whole Chrome window not just the tab. Really important)
+10. Search within the text file to find and copy/paste the values in configuration dialog (without quotes).
 11. Also Keep in mind if your HA or this integration don't run for more than 1 hour you must uninstall it and reinstall it.
-12. After you HA configuration it's done reopen your Chrome and check if you still logged on https://home.cielowigle.com/, if yes logout with the sign out button.
 
 ![image](https://github.com/bodyscape/cielo_home/assets/30115568/96702e55-d4e0-4815-8316-a9a6cfbbab74)
 <img width="431" height="691" alt="image" src="https://github.com/user-attachments/assets/9e19b7bd-5c08-4161-ba1d-4895d65edf69" />
