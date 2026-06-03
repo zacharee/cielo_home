@@ -1,0 +1,12 @@
+{
+  "domain": "cielo_home_custom",
+  "name": "Cielo Home Custom",
+  "codeowners": ["@zacharee"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/zacharee/cielo_home",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/zacharee/cielo_home/issues",
+  "requirements": [],
+  "version": "1.9.0"
+}

@@ -1,11 +1,9 @@
 # Cielo Home / Mr Cool devices integration for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
-[![cielo_home](https://img.shields.io/github/release/bodyscape/cielo_home/all.svg?style=for-the-badge)](https://github.com/bodyscape/cielo_home/releases)
+[![cielo_home](https://img.shields.io/github/release/zacharee/cielo_home/all.svg?style=for-the-badge)](https://github.com/zacharee/cielo_home/releases)
 ![Maintenance](https://img.shields.io/maintenance/yes/2025.svg?style=for-the-badge)
-[![](https://img.shields.io/badge/MAINTAINER-bodyscape-red?style=for-the-badge)](https://github.com/bodyscape)
-
-<a href="https://www.buymeacoffee.com/bodyscape"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=bodyscape&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
+[![](https://img.shields.io/badge/MAINTAINER-zacharee-red?style=for-the-badge)](https://github.com/zacharee)
 
 A Home Assistant custom integration to control Cielo Home devices.
 
@@ -23,7 +21,7 @@ For find the field in the initial configuration setup follow this.
 5. Fill your login, password and complete the recaptcha.
 6. Click 'Sign in'.
 
-![image](https://github.com/bodyscape/cielo_home/assets/30115568/3d1878e3-031e-4ab7-86ab-464c15b11eeb)
+![image](https://github.com/zacharee/cielo_home/assets/30115568/3d1878e3-031e-4ab7-86ab-464c15b11eeb)
 
 7. Click on the new row on network who have the 'login' on it.
 8. Click on the new subtab 'Response'
@@ -32,7 +30,7 @@ For find the field in the initial configuration setup follow this.
 11. Also Keep in mind if your HA or this integration don't run for more than 1 hour you must uninstall it and reinstall it.
 12. After you HA configuration it's done reopen your Chrome and check if you still logged on https://home.cielowigle.com/, if yes logout with the sign out button.
 
-![image](https://github.com/bodyscape/cielo_home/assets/30115568/96702e55-d4e0-4815-8316-a9a6cfbbab74)
+![image](https://github.com/zacharee/cielo_home/assets/30115568/96702e55-d4e0-4815-8316-a9a6cfbbab74)
 <img width="431" height="691" alt="image" src="https://github.com/user-attachments/assets/9e19b7bd-5c08-4161-ba1d-4895d65edf69" />
 
 
@@ -80,19 +78,19 @@ A exemple of thermostat card i use : https://github.com/nervetattoo/simple-therm
 
 Click on the button below to automatically navigate to the repository within HACS:
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bodyscape&repository=cielo_home&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=zacharee&repository=cielo_home&category=integration)
 
 Alternatively, follow the steps below:
 
 1. Go to HACS "Integrations >" section
 2. Click 3 dots in top right
 3. Click "Custom repositories"
-4. Add repository https://github.com/bodyscape/cielo_home with category Integration
+4. Add repository https://github.com/zacharee/cielo_home with category Integration
 5. In the lower right click "+ Explore & Download repositories"
 6. Search for "Cielo Home" and add it
 
 ## Manual
-Copy the `cielo_home` directory, from `custom_components` in this repository,
+Copy the `cielo_home_custom` directory, from `custom_components` in this repository,
 and place it inside your Home Assistant Core installation's `custom_components` directory.
 
 `Note`: If installing manually, in order to be alerted about new releases, you will need to subscribe to releases from this repository. 
@@ -101,7 +99,7 @@ and place it inside your Home Assistant Core installation's `custom_components` 
 
 Click on the button below to add the integration:
 
-[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=cielo_home)
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=cielo_home_custom)
 
 Alternatively, follow the steps below:
 

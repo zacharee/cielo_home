@@ -2,7 +2,7 @@
 
 from homeassistant.components.climate import PRESET_NONE
 
-DOMAIN = "cielo_home"
+DOMAIN = "cielo_home_custom"
 URL_API = "api.smartcielo.com"
 URL_API_WSS = "apiwss.smartcielo.com"
 URL_CIELO = "https://home.cielowigle.com/"
