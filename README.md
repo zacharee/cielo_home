@@ -2,7 +2,7 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 [![cielo_home_custom](https://img.shields.io/github/release/zacharee/cielo_home/all.svg?style=for-the-badge)](https://github.com/zacharee/cielo_home/releases)
-![Maintenance](https://img.shields.io/maintenance/yes/2025.svg?style=for-the-badge)
+![Maintenance](https://img.shields.io/maintenance/yes/2026.svg?style=for-the-badge)
 [![](https://img.shields.io/badge/MAINTAINER-zacharee-red?style=for-the-badge)](https://github.com/zacharee)
 
 A Home Assistant custom integration to control Cielo Home devices.
