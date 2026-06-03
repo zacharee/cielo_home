@@ -21,7 +21,7 @@ For find the field in the initial configuration setup follow this.
 5. Fill your login, password and complete the recaptcha.
 6. Click 'Sign in'.
 
-![image](https://github.com/zacharee/cielo_home/assets/30115568/3d1878e3-031e-4ab7-86ab-464c15b11eeb)
+![image](https://github.com/bodyscape/cielo_home/assets/30115568/3d1878e3-031e-4ab7-86ab-464c15b11eeb)
 
 7. Click on the new row on network who have the 'login' on it.
 8. Click on the new subtab 'Response'
@@ -30,7 +30,7 @@ For find the field in the initial configuration setup follow this.
 11. Also Keep in mind if your HA or this integration don't run for more than 1 hour you must uninstall it and reinstall it.
 12. After you HA configuration it's done reopen your Chrome and check if you still logged on https://home.cielowigle.com/, if yes logout with the sign out button.
 
-![image](https://github.com/zacharee/cielo_home/assets/30115568/96702e55-d4e0-4815-8316-a9a6cfbbab74)
+![image](https://github.com/bodyscape/cielo_home/assets/30115568/96702e55-d4e0-4815-8316-a9a6cfbbab74)
 <img width="431" height="691" alt="image" src="https://github.com/user-attachments/assets/9e19b7bd-5c08-4161-ba1d-4895d65edf69" />
 
 
